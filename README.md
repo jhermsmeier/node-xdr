@@ -1,0 +1,19 @@
+# XDR - External Data Representation (RFC 1014)
+[![NPM version](https://badge.fury.io/js/xdr.png)](https://npmjs.org/xdr)
+
+
+XDR is a standard for the description and encoding of data.  It is
+useful for transferring data between different computer
+architectures, and has been used to communicate data between such
+diverse machines as the SUN WORKSTATION*, VAX*, IBM-PC*, and Cray*.
+XDR fits into the ISO presentation layer, and is roughly analogous in
+purpose to X.409, ISO Abstract Syntax Notation.  The major difference
+between these two is that XDR uses implicit typing, while X.409 uses
+explicit typing.
+
+
+Install via [npm](https://npmjs.org)
+------------------------------------
+```sh
+$ npm install xdr
+```

@@ -1,0 +1,19 @@
+{
+  "name": "xdr",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/xdr",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/node-xdr.git"
+  },
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-xdr/issues"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-xdr"
+}
