@@ -1,5 +1,6 @@
 # XDR - External Data Representation
-[![NPM version](https://badge.fury.io/js/xdr.png)](https://npmjs.org/xdr)
+[![npm](http://img.shields.io/npm/v/xdr.svg?style=flat)](https://npmjs.org/xdr)
+[![travis](http://img.shields.io/travis/jhermsmeier/node-xdr.svg?style=flat)](https://travis-ci.org/jhermsmeier/node-xdr)
 
 
 #### From RFC 1014:
