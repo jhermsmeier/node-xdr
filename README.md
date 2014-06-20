@@ -1,6 +1,8 @@
-# XDR - External Data Representation (RFC 1014)
+# XDR - External Data Representation
 [![NPM version](https://badge.fury.io/js/xdr.png)](https://npmjs.org/xdr)
 
+
+#### From RFC 1014:
 
 XDR is a standard for the description and encoding of data.  It is
 useful for transferring data between different computer
