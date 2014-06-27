@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/xdr",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-xdr/issues"
   },
-  "homepage": "https://github.com/jhermsmeier/node-xdr"
+  "homepage": "https://github.com/jhermsmeier/node-xdr",
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
 }
