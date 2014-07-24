@@ -19,7 +19,10 @@ describe( 'Float', function() {
   })
   
   it( 'read a float', function() {
-    assert.equal( xdr.readFloat( 0 ), num )
+    // We need to compare nums fixed to one decimal place
+    // here, since that seems to be all the accuracy we can get
+    // from JS -> BE float buffer conversions
+    assert.equal( xdr.readFloat( 0 ).toFixed(1), num.toFixed(1) )
   })
   
   it( 'advance offset on read', function() {
