@@ -31,6 +31,21 @@ suite( 'int32', function() {
   
 })
 
+suite( 'int64', function() {
+  
+  var xdr = new Next()
+  var num = Math.pow( 2, 50 )
+  
+  // bench( 'write', function() {
+  //   xdr.writeInt64( num, 0 )
+  // })
+  
+  // bench( 'read', function() {
+  //   xdr.readInt64( 0 )
+  // })
+  
+})
+
 suite( 'uint32', function() {
   
   var xdr = new Next()
