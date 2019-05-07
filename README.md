@@ -3,7 +3,7 @@
 [![travis](http://img.shields.io/travis/jhermsmeier/node-xdr.svg?style=flat)](https://travis-ci.org/jhermsmeier/node-xdr)
 
 
-#### From RFC 1014:
+#### From [RFC 1014](https://tools.ietf.org/html/rfc1014):
 
 XDR is a standard for the description and encoding of data.  It is
 useful for transferring data between different computer
