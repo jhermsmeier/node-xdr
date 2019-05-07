@@ -4,8 +4,8 @@
   "description": "",
   "main": "lib/xdr",
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "bench": "node_modules/.bin/matcha"
+    "test": "mocha",
+    "bench": "matcha"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/jhermsmeier/node-xdr",
   "devDependencies": {
     "matcha": "^0.5.0",
-    "mocha": "^1.20.1",
+    "mocha": "^6.1.4",
     "xdr": "latest"
   }
 }
